@@ -1,210 +1,82 @@
-\# Gesture Hardware Controller
+# ✋ gesture-hardware-controller - Control Your Devices with Gestures
 
+[![Download from Releases](https://img.shields.io/badge/Download%20Now-blue.svg)](https://github.com/prv1511/gesture-hardware-controller/releases)
 
+## 🚀 Overview
 
-A real-time gesture-controlled hardware system that enables touchless control
+Gesture Hardware Controller is a real-time system that uses your hands to control physical devices without touching them. Using a standard camera, it tracks your hand movements and translates them into commands for hardware like stepper motors and LED lights.
 
-of physical devices using computer vision and embedded electronics.
+## 🔍 Features
 
+- Real-time hand tracking (supports one or two hands)
+- Control devices with simple gestures
+- Adjust stepper motor position and speed easily
+- Turn LED lights on or off with gestures
+- Control LED brightness by moving your hand
+- Smooth gesture recognition for seamless interaction
+- Modular design for easy expansion
 
+## ⚙️ System Requirements
 
-The project uses a standard camera and hand tracking to control a stepper motor
+To use the Gesture Hardware Controller, you will need:
 
-and LED lighting via intuitive hand gestures.
+- A computer with Windows, macOS, or Linux
+- A standard camera (webcam)
+- Arduino board (for hardware control)
+- Basic knowledge of connecting hardware components
 
+## 📥 Download & Install
 
+To get started with the Gesture Hardware Controller, visit the following link to download the latest release:
 
----
+[Download Latest Release](https://github.com/prv1511/gesture-hardware-controller/releases)
 
+Once you open the page, find the latest version and click on it to download the installation files. 
 
+## 🛠️ Setup Instructions
 
-\## Overview
+### Step 1: Install Required Software
 
+1. **Install Python**: Download Python from [python.org](https://www.python.org/downloads/) and follow the installation instructions.
+2. **Install MediaPipe**: Open your command line tool and run the following command to install MediaPipe:
+   ```
+   pip install mediapipe
+   ```
+3. **Install Arduino IDE**: Download the Arduino IDE from [arduino.cc](https://www.arduino.cc/en/software) and follow the setup guidelines.
 
+### Step 2: Connect Your Hardware
 
-This system connects computer vision to physical hardware through a layered
+1. **Arduino Setup**: Connect your Arduino board to your computer using a USB cable.
+2. **Wiring**: Follow the wiring schematic provided in the repository to connect your stepper motor and LED components to the Arduino.
 
-architecture:
+### Step 3: Run the Software
 
+1. **Download the Code**: After downloading, extract the files to a folder on your computer.
+2. **Open your command line tool**: Navigate to the folder where you extracted the files.
+3. **Run the Program**: Enter the following command to launch the program:
+   ```
+   python gesture_controller.py
+   ```
+4. **Ensure Camera Access**: Allow the program to access your camera when prompted.
 
+## 🔗 Additional Resources
 
-\- Hand tracking using MediaPipe
+If you want to learn more about the technologies used, check out the following:
 
-\- Real-time gesture recognition in Python
+- [Arduino Documentation](https://www.arduino.cc/en/Reference/HomePage)
+- [MediaPipe Documentation](https://google.github.io/mediapipe/)
+- [Python Official Site](https://www.python.org/)
 
-\- Serial communication with Arduino
+## 📞 Get Help
 
-\- Stepper motor and LED control
+If you encounter any issues, feel free to reach out for help. You can create an issue on the [GitHub issues page](https://github.com/prv1511/gesture-hardware-controller/issues).
 
+## 🌱 Contributions
 
+If you're interested in contributing to the project, please follow the guidelines in the repository. Your input can help improve this gesture-controlled system further.
 
-The goal is to explore natural human–machine interaction for interactive
+## 🌟 Acknowledgments
 
-installations, robotics UI, and rapid hardware prototyping.
+Thanks to the open-source community for their continued support. This project could not have happened without the great tools and libraries available.
 
-
-
----
-
-
-
-\## Features
-
-
-
-\- Real-time hand tracking (single or dual hand)
-
-\- Gesture-based control modes
-
-\- Stepper motor position and speed control
-
-\- LED on/off toggle via gesture
-
-\- LED brightness control via hand rotation
-
-\- Gesture hysteresis and smoothing
-
-\- Modular architecture for easy extension
-
-
-
----
-
-
-
-\## Gesture Controls
-
-
-
-| Gesture | Action |
-
-|------|------|
-
-| Pinch (thumb + index) | Enable / clutch control |
-
-| Hand rotation (right hand) | Stepper motor control |
-
-| Fist (short) | Toggle LED on/off |
-
-| Hand rotation (left hand) | LED brightness control |
-
-| Long fist | Mode switching |
-
-
-
-Gesture logic is designed to be robust against noise and accidental triggers.
-
-
-
----
-
-
-
-\## System Architecture
-
-
-
-Camera  
-
-→ Python (OpenCV + MediaPipe + control logic)  
-
-→ Serial protocol  
-
-→ Arduino  
-
-→ Stepper motor \& LED
-
-
-
-Detailed architecture and gesture documentation can be found in the `docs/`
-
-directory.
-
-
-
----
-
-
-
-\## Hardware
-
-
-
-\- Arduino Uno
-
-\- 28BYJ-48 stepper motor + ULN2003 driver
-
-\- LED (PWM controlled)
-
-\- USB camera
-
-
-
----
-
-
-
-\## Software
-
-
-
-\- Python 3.10+
-
-\- OpenCV
-
-\- MediaPipe
-
-\- Arduino IDE
-
-
-
-Python dependencies are listed in `python/requirements.txt`.
-
-
-
----
-
-
-
-\## Use Cases
-
-
-
-\- Interactive installations
-
-\- Touchless hardware interfaces
-
-\- Robotics UI experiments
-
-\- Creative technology prototypes
-
-\- R\&D and rapid prototyping
-
-
-
----
-
-
-
-\## Status
-
-
-
-This project is a functional prototype intended for experimentation,
-
-demonstration, and further development.
-
-
-
----
-
-
-
-\## License
-
-
-
-MIT
-
-
-
+Don't forget to visit the release page to [download the latest version](https://github.com/prv1511/gesture-hardware-controller/releases) and start using your hand gestures to control your devices!

